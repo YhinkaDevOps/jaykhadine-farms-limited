@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="hero-image min-h-screen">
       <div className="bg-text mt-28">
         <Swiper className="mySwiper">
-          <SwiperSlide className="animate__animated animate__bounce">
+          {/* <SwiperSlide className="animate__animated animate__bounce">
             <div className="flex flex-col gap-8">
               <h1 className="text-4xl leading-10">
                 Where Purity Meets Process, Excellence &nbsp;
@@ -30,7 +30,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide>
             <div className="flex flex-col gap-8">
@@ -46,13 +46,13 @@ const Hero = () => {
               </p>
 
               <div>
-                <button className="px-7 py-3 bg-red-600 hover:bg-orange-600 transition duration-300 ease-in-out">
-                  <Link href="/products">Our Products</Link>
+                <button className="px-7 py-3 bg-[#7CFC00] hover:bg-orange-600 transition duration-300 ease-in-out">
+                  <Link href="/about-us">Learn More</Link>
                 </button>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="flex flex-col gap-8">
               <h1 className="text-4xl tracking-tight">
                 Quality Finished Products For All With Best &nbsp;
@@ -67,11 +67,11 @@ const Hero = () => {
               </p>
               <div>
                 <button className="px-7 py-3 bg-red-600 hover:bg-orange-600 transition duration-300 ease-in-out">
-                  <Link href="/products">See Our Products</Link>
+                  <Link href="/products">View Our Products</Link>
                 </button>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>

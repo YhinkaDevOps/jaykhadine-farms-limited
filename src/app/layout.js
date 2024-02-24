@@ -9,8 +9,9 @@ import Pagenote from "@/components/Pagenote";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rena Agricultural Services",
-  description: "Transforming Africa's Value Chain.",
+  title: "Jaykhadine Farms Limited",
+  description:
+    "Where Quality Eggs and Organically Raised Chickens Meet – Your Ultimate Destination",
   icons: {
     icon: ["/favico?v=4"],
     apple: ["/apple-touch-icon?v=4"],

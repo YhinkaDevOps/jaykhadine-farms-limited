@@ -7,13 +7,13 @@ const Latest = () => {
       <h5 className="text-center text-4xl mb-8">LATEST</h5>
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto max-w-[1100px] p-2 ">
         <div className="flex flex-col gap-3 items-center rounded-md border shadow-lg shadow-[rgb(4,12,22)]">
-          <img src="https://oatvanafarms.com/images/about/12.jpg" alt="" />
+          <img className="latest-img" src="./assets/jaykhadine_.png" alt="" />
 
           <div className="p-2 flex flex-col space-y-2 py-3">
             <p className="font-semibold text-[20px]">
-              Welcome to Renal Agricultural Services
+              Welcome to Jaykhadine Farms Limited
             </p>
-            <span className="text-sm">Feb 01, 2019</span>
+            <span className="text-sm">Feb 17, 2021</span>
             <p className="text-[#8f8f8f] text-justify text-sm">
               Renal Agricultural Services, located in Ibadan, Oyo State, is a
               food processing company specializing in the conversion of live
@@ -32,15 +32,12 @@ const Latest = () => {
         </div>
 
         <div className="flex flex-col gap-3 items-center rounded-md border shadow-lg shadow-[rgb(4,12,22)]">
-          <img
-            src="https://www.poultryworld.net/app/uploads/2022/05/IMG_gro408851-028-848x565.jpg"
-            alt=""
-          />
+          <img className="latest-img" src="./assets/jaykhadine_2.png" alt="" />
           <div className="p-2 flex flex-col space-y-2 py-3">
             <p className="font-semibold text-[20px]">
-              Renal Agricultural Services Products
+              Jaykhadine Farms Limited Products
             </p>
-            <span className="text-sm">Feb 01, 2019</span>
+            <span className="text-sm">Feb 17, 2021</span>
             <p className="text-[#8f8f8f] text-justify text-sm">
               Poultry meat stands out as an incredibly versatile option in the
               market, valued not only for its affordability but also for its low
@@ -58,11 +55,11 @@ const Latest = () => {
         </div>
 
         <div className="flex flex-col gap-3 items-center rounded-md border shadow-lg shadow-[rgb(4,12,22)]">
-          <img src="https://oatvanafarms.com/images/about/01.jpg" alt="" />
+          <img className="latest-img"  src="./assets/mission.jpg" alt="" />
 
           <div className="p-2 flex flex-col space-y-2 py-3">
             <p className="font-semibold text-[20px]">Our Mission and Vision</p>
-            <span className="text-sm">Feb 01, 2019</span>
+            <span className="text-sm">Feb 17, 2021</span>
             <p className="text-[#8f8f8f] text-justify text-sm">
               To provide a consistent supply of high-quality frozen chicken to
               our customers whilst maintaining the highest global industry

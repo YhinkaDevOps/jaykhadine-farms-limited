@@ -5,24 +5,19 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className=" min-h-[200px] bg-[#900C3F] text-white px-4 py-10 md:py-16 border-dashed border-b-[1px] border-b-white">
+    <div className=" min-h-[200px] bg-[#32CD32] text-white px-4 py-10 md:py-16 border-dashed border-b-[1px] border-b-white">
       <div className="mx-auto max-w-[1100px] grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 ">
         <div className="flex flex-col gap-2">
           <span className="hover:opacity-70 flex items-center flex-shrink-0">
-            {/* <img
-              src="/assets/footer_logo.png"
-              className="h-[65px]"
-              alt="footer_logo"
-            /> */}
             <Image
-              src="/assets/nav-logo.png"
+              src="/assets/jaykhadine.png"
               width={100}
               height={65}
               alt="footer-logo"
             />
           </span>
 
-          <span className="text-sm">Rena Agricultural Services</span>
+          <span className="text-sm">Jaykhadine Farms Limited</span>
         </div>
 
         {/* Contact us */}
