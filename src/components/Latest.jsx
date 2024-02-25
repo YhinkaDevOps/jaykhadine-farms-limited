@@ -15,10 +15,11 @@ const Latest = () => {
             </p>
             <span className="text-sm">Feb 17, 2021</span>
             <p className="text-[#8f8f8f] text-justify text-sm">
-              Renal Agricultural Services, located in Ibadan, Oyo State, is a
-              food processing company specializing in the conversion of live
-              broiler chicken into meticulously preserved and packaged frozen
-              chicken meat....
+              Jaykhadine Farms Limited, situated in Sango Otta, Ogun State,
+              specializes in crop and animal production, hunting, and related
+              services. As a leading food processing company, we excel in
+              converting live broiler chicken into meticulously preserved and
+              packaged frozen chicken meat.....
             </p>
             <span className="inline-block text-[#ee1c25] text-sm text-right  ">
               <Link
@@ -39,9 +40,9 @@ const Latest = () => {
             </p>
             <span className="text-sm">Feb 17, 2021</span>
             <p className="text-[#8f8f8f] text-justify text-sm">
-              Poultry meat stands out as an incredibly versatile option in the
-              market, valued not only for its affordability but also for its low
-              fat content and high protein levels...
+              Poultry meat is renowned as an exceptionally versatile choice in
+              the market, prized not just for its affordability, but also for
+              its low-fat composition and abundant protein content.
             </p>
             <span className="inline-block text-[#ee1c25] text-sm text-right  ">
               <Link
@@ -55,7 +56,7 @@ const Latest = () => {
         </div>
 
         <div className="flex flex-col gap-3 items-center rounded-md border shadow-lg shadow-[rgb(4,12,22)]">
-          <img className="latest-img"  src="./assets/mission.jpg" alt="" />
+          <img className="latest-img" src="./assets/mission.jpg" alt="" />
 
           <div className="p-2 flex flex-col space-y-2 py-3">
             <p className="font-semibold text-[20px]">Our Mission and Vision</p>

@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="min-h-svh pt-[100px]">
-      <div className="bg-[#f6f6f6] py-5 md:py-10 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
+    <div className="font-sans min-h-svh pt-[100px]">
+      <div className="about-bg bg-[#f6f6f6] py-12 px-4 md:py-16 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
         <h6 className="text-2xl font-semibold px-2">ABOUT US</h6>
         <span className="flex gap-x-3 text-sm items-center px-2">
-          <Link className="hover:text-[#900C3F]" href="/">
+          <Link className="hover:text-[#32CD32]" href="/">
             Home
           </Link>
           /<span className="font-semibold">About Us</span>
@@ -16,68 +16,54 @@ const About = () => {
       </div>
 
       <div className="px-4 md:px-0 mx-auto max-w-[1100px] py-10 flex flex-col gap-4">
-        <h6 className="text-3xl">Renal Agricultural Services Limited</h6>
+        <h6 className="text-3xl">Jaykhadine Farms Limited</h6>
         <p className="text-justify">
-          <span className="font-bold">
-            Renal Agricultural Services Limited,
-          </span>{" "}
-          located in Ibadan, Oyo State, is a food processing company
-          specializing in the conversion of live broiler chicken into
-          meticulously preserved and packaged frozen chicken meat. Collaborating
-          with local farmers, we ensure the delivery of high-quality products
-          from our factory and offices.
+          <span className="font-bold">Jaykhadine Farms Limited,</span> situated
+          in Sango Otta, Ogun State, specializes in crop and animal production,
+          hunting, and related services. As a leading food processing company,
+          we excel in converting live broiler chicken into meticulously
+          preserved and packaged frozen chicken meat.
         </p>
 
         <p className="text-justify">
-          The establishment of our firm was driven by a strategic mission to
-          address the substantial demand-supply disparity within the Nigerian
-          foods market, specifically targeting the local production of chicken
-          meat. Our purpose is rooted in bridging this gap, contributing to the
-          growth of self-sufficiency in the poultry industry, and ensuring that
-          the market is adequately supplied with high-quality locally produced
-          chicken meat. We commenced farming business over a decade now,
-          however, the company was incorporated by the Corporate Affairs
-          Commission in Oct 2018.
+          At Jaykhadine Farms Limited, our inception was driven by a strategic
+          mission to address the significant demand-supply gap within the
+          Nigerian foods market, with a primary focus on local chicken meat
+          production. Our core objective is to bridge this gap by fostering
+          self-sufficiency in the poultry industry and ensuring the market's
+          access to premium-quality locally sourced chicken meat. While our
+          farming operations began over a decade ago, our official incorporation
+          by the Corporate Affairs Commission occurred in February 2021.
         </p>
 
         <p className="text-justify">
-          Nigeria presently boasts a chicken population of 165 million, yielding
-          approximately 650,000 metric tons (MT) of eggs and 300,000 MT of meat.
-          However, the existing demand for poultry stands at a staggering 200
-          million birds, with a corresponding demand for eggs and meat at around
-          790,000 MT and 1,500,000 MT, respectively. This glaring disparity
-          reveals a substantial demand gap, exacerbated by the influx of
-          approximately 1,200,000 MT of smuggled meat, as reported by Business
-          Day in 2019
+          Our vision is to develop a resilient and sustainable business model
+          that not only meets the growing demand for animal production, hunting,
+          and related services but also reduces the country's dependency on
+          imported meat products. Through strategic interventions and the
+          implementation of superior agricultural practices, we strive to play a
+          pivotal role in fulfilling domestic needs, fostering economic
+          development, and promoting self-sufficiency in animal production.
         </p>
 
         <p className="text-justify">
-          In response, we envision establishing a robust and sustainable
-          business model that not only addresses this significant demand but
-          also contributes to reducing the nation's reliance on imported chicken
-          meat. Through strategic interventions and quality agricultural
-          practices, we aim to play a pivotal role in meeting the domestic
-          requirements, fostering economic growth, and promoting
-          self-sufficiency in poultry production.
+          As we eagerly pursue new opportunities, our steadfast dedication to
+          ethical business practices remains our guiding principle. We
+          persistently endeavor to conduct our activities in a manner that not
+          only preserves our esteemed reputation but also propels us toward
+          ongoing innovation.
         </p>
 
         <p className="text-justify">
-          As we actively explore new avenues, our unwavering commitment to
-          responsible business practices remains at the forefront of our
-          endeavors. We consistently strive to conduct our operations in a
-          manner that not only upholds our esteemed reputation but also propels
-          us toward continuous innovation.
-        </p>
-
-        <p className="text-justify">
-          This commitment is driven by our vision to secure a sustainable and
-          improved quality of life for consumers both now and into the future.
-          Embracing a forward-thinking approach, we actively seek innovative
-          solutions that not only meet the needs of today but also contribute to
-          a lasting positive impact on the future. Our pursuit of excellence is
-          anchored in the belief that responsible business practices and a
-          dedication to innovation are pivotal in shaping a better tomorrow for
-          all.
+          Our commitment stems from our vision to ensure a sustainable and
+          enhanced quality of life for consumers, both present and future.
+          Embracing a forward-looking mindset, we proactively explore innovative
+          solutions to address current needs while also fostering long-term
+          positive outcomes. Our relentless pursuit of excellence is grounded in
+          the belief that responsible business practices and a passion for
+          innovation are essential in shaping a brighter future for all. With
+          this steadfast dedication, we aspire to leave a lasting legacy of
+          progress and prosperity for generations to come.
         </p>
       </div>
     </div>

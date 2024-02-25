@@ -13,10 +13,8 @@ import Link from "next/link";
 const Vision = () => {
   return (
     <div className="min-h-[800px] md:min-h-svh pt-[100px]">
-      <div className="bg-[#f6f6f6] py-5 md:py-10 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
-        <h6 className="text-2xl font-semibold px-2">
-          VISION | MISSION
-        </h6>
+      <div className="mission-bg bg-[#f6f6f6] py-12 px-4 md:py-16 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
+        <h6 className="text-2xl font-semibold px-2">VISION | MISSION</h6>
         <span className="flex gap-x-3 text-sm items-center px-2">
           <Link className="hover:text-[#900C3F]" href="/">
             Home
@@ -30,20 +28,19 @@ const Vision = () => {
           <div className="flex flex-col gap-3">
             <h6 className="text-2xl font-semibold">Our Vision</h6>
             <p>
-              To provide a consistent supply of high-quality frozen chicken to
-              our customers whilst maintaining the highest global industry
-              standards in food safety and defence.
+              To deliver top-tier frozen chicken consistently, upholding the
+              highest standards in global food safety and defense.
             </p>
           </div>
 
           <div className="flex flex-col gap-3">
             <h6 className="text-2xl font-semibold">Our Mission</h6>
             <p>
-              Our goal is to create organically cultivated, nutritious, and
-              cost-effective poultry products, along with other outstanding
-              agricultural services. We aim to achieve this by establishing an
-              efficient mechanized farming system that prioritizes quality for
-              all our valued customers.
+              Our goal is to produce top-quality, organic poultry products and
+              exceptional agricultural services that are nutritious, affordable,
+              and environmentally sustainable. We're committed to achieving this
+              through the implementation of efficient mechanized farming
+              practices, ensuring satisfaction for all our valued customers.
             </p>
           </div>
         </div>
@@ -65,21 +62,38 @@ const Vision = () => {
           >
             <SwiperSlide>
               <img
-                src="https://taghini.com/wp-content/uploads/2019/09/whole-chicken-1.png"
+                className="latest-img"
+                src="./assets/jaykhadine_2.png"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://taghini.com/wp-content/uploads/2019/09/frozen-chicken-wings-1.png"
+                className="latest-img"
+                src="./assets/products_1.png"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://oatvanafarms.com/images/about/12.jpg" alt="" />
+              <img
+                className="latest-img"
+                src="./assets/products_2.png"
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://oatvanafarms.com/images/about/02.jpg" alt="" />
+              <img
+                className="latest-img"
+                src="./assets/jaykhadine_3.jpg"
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="latest-img"
+                src="./assets/crates-of-eggs.jpg"
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide>
               <img src="https://oatvanafarms.com/images/about/14.jpg" alt="" />

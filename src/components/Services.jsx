@@ -4,7 +4,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="min-h-[300px] mx-auto py-12 flex flex-col">
+    <div className="font-serif min-h-[300px] mx-auto py-12 flex flex-col">
       <div className="px-4 lg:px-0">
         <h6 className="text-center mb-5 text-2xl">
           WELCOME TO JAYKHADINE FARMS LIMITED

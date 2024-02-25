@@ -33,7 +33,7 @@ const Hero = () => {
           </SwiperSlide> */}
 
           <SwiperSlide>
-            <div className="flex flex-col gap-8">
+            <div className="font-sans flex flex-col gap-8">
               <h1 className="text-4xl tracking-tight">
                 Nourishing Lives,&nbsp;
                 <span className="text-red-600">Transforming Poultry.</span>
@@ -46,7 +46,7 @@ const Hero = () => {
               </p>
 
               <div>
-                <button className="px-7 py-3 bg-[#7CFC00] hover:bg-orange-600 transition duration-300 ease-in-out">
+                <button className="px-7 py-3 bg-[#7CFC00] rounded-md hover:bg-orange-600 transition duration-300 ease-in-out">
                   <Link href="/about-us">Learn More</Link>
                 </button>
               </div>

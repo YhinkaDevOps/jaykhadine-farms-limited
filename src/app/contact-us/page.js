@@ -64,18 +64,18 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen pt-[100px]">
-      <div className="bg-[#f6f6f6] py-5 md:py-10 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
+      <div className="contact-bg bg-[#f6f6f6] py-12 px-4 md:py-16 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
         <h6 className="text-2xl font-semibold px-2">CONTACT US</h6>
         <span className="flex gap-x-3 text-sm items-center px-2">
-          <Link className="hover:text-[#900C3F]" href="/">
+          <Link className="hover:text-[#32CD32]" href="/">
             Home
           </Link>
           /<span className="font-semibold">Contact Us</span>
         </span>
       </div>
       {/* Contact Container */}
-      <div className="mx-auto max-w-[1099px] my-10 px-4 md:px-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-4">
-        <div className="contact-form border shadow-lg shadow-[rgb(4,12,22)] container rounded-md p-7 order-last">
+      <div className="mx-auto max-w-[1099px] my-10 px-2 md:px-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-4">
+        <div className="contact-form border shadow-lg shadow-[rgb(4,12,22)] container rounded-md py-7 px-4 order-last">
           <FormControl
             isRequired
             isInvalid={touched.name && !values.name}
@@ -168,24 +168,26 @@ const Contact = () => {
             </Button>
           </div>
         </div>
-        <div className="contact-form border shadow-lg shadow-[rgb(4,12,22)] flex flex-col gap-2 p-7">
+        <div className="contact-form border shadow-lg rounded-md shadow-[rgb(4,12,22)] flex flex-col gap-2 py-7 px-4">
           <h3 className="text-[#444444] text-2xl font-semibold">Visit Us</h3>
           <div>
-            <p>Rena Agricultural Services Ltd</p>
-            <p>Plot 12D Oyinbo Eleja Close</p>
-            <p>Akingbile, Ibadan</p>
-            <p>Oyo, Nigeria</p>
+            <p>Jaykhadine Farms Limited</p>
+            <p>6th Avenue, Surulere Estate, Water Water</p>
+            <p>Iyana Iyesi, Sango Otta</p>
+            <p>Ogun State</p>
+            <p>Nigeria</p>
           </div>
 
           <h3 className="text-[#444444] text-2xl font-semibold">Phone Us</h3>
           <div>
             <p>Customer Service:</p>
-            <p>08033520427</p>
+            <p>08035691101</p>
+            <p>08122512867</p>
           </div>
 
           <h3 className="text-[#444444] text-2xl font-semibold">Email Us</h3>
           <div>
-            <p>renaagric@gmail.com</p>
+            <p>jaykhadinefarms@gmail.com</p>
           </div>
         </div>
       </div>

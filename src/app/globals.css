@@ -28,7 +28,7 @@
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -42,7 +42,7 @@
     color: white;
     font-weight: bold;
     position: absolute;
-    top: 9%;
+    top: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -83,12 +83,22 @@
 
 .swiper-slide img {
   width: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 1.2;
   object-fit: cover;
 }
 
-.latest-img{
-   width: 100%;
+.latest-img {
+  width: 100%;
   aspect-ratio: 1.2;
-  object-fit: cover; 
+  object-fit: cover;
+}
+
+/* contacts styling */
+.contact-bg,
+.products-bg,
+.about-bg, .mission-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://taghini.com/wp-content/uploads/2019/09/slide-1.jpg");
+  background-size: cover;
+  background-position: center;
 }

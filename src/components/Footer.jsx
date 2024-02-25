@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,7 +31,9 @@ const Footer = () => {
           {/* <span className="text-sm">
             https://chimkasimmatransportservices.vercel.app/
           </span> */}
-          <span className="text-sm">+(234) 08033520427 - enquiry</span>
+          <span className="text-sm">+(234) 08035691101 - enquiry</span>
+          <span className="text-sm">+(234) 08122512867</span>
+          <span className="text-sm">jaykhadinefarms@gmail.com</span>
         </div>
 
         {/* Useful links */}
@@ -52,15 +55,15 @@ const Footer = () => {
         <div className="pt-2 flex flex-col gap-2">
           <h1 className="font-bold">Connect With Us</h1>
           <div className="flex flex-row gap-3">
-            {/* <button className="hover:opacity-70">
-              <Link href="https://web.facebook.com/profile.php?id=100085566767107">
-                <FaFacebook size={20} />
+            <button className="hover:opacity-70">
+              <Link href="https://www.instagram.com/jaykhadinefarms/">
+                <FaInstagram size={30} />
               </Link>
-            </button> */}
+            </button>
 
             <button className="hover:opacity-70">
-              <Link href="https://www.linkedin.com/in/ayo-salako-8424b120/?originalSubdomain=ng">
-                <FaLinkedin size={20} />
+              <Link href="https://www.linkedin.com/in/igbeia-joseph-761b0bb2?originalSubdomain=ng">
+                <FaLinkedin size={30} />
               </Link>
             </button>
           </div>
